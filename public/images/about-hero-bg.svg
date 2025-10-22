@@ -1,0 +1,83 @@
+<svg viewBox="0.0000 0.0000 1440.0000 833.0000" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><filter id="filter0_f_316_534" x="113.6" y="-4.42343" width="1212.8" height="1030.82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" xmlns="http://www.w3.org/2000/svg">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="93.2" result="effect1_foregroundBlur_316_534"/>
+</filter><linearGradient id="paint0_linear_316_534" x1="467.47" y1="263.288" x2="1072.5" y2="563.902" gradientUnits="userSpaceOnUse" xmlns="http://www.w3.org/2000/svg">
+<stop stop-color="#87CEEB"/>
+<stop offset="0.313324" stop-color="#A77B5A"/>
+<stop offset="0.780691" stop-color="#F39C12"/>
+<stop offset="1" stop-color="#E74D3C"/>
+</linearGradient></defs><g id="Bg" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1171275310">
+<g id="Ellipse 2827" filter="url(#filter0_f_316_534)">
+<path d="M1040 419.574C1040 474.582 1025.86 528.663 998.935 576.612C972.012 624.561 933.215 664.762 886.279 693.345C839.343 721.928 785.848 737.931 730.946 739.812C676.043 741.694 621.581 729.391 572.804 704.088C524.026 678.785 482.575 641.334 452.441 595.341C422.307 549.348 404.505 496.361 400.749 441.482C396.993 386.603 407.409 331.68 430.996 282" stroke="url(#paint0_linear_316_534)" stroke-opacity="0.4" stroke-width="200" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="Group 8" opacity="0.6">
+<line id="Line 1" x1="105.5" y1="2.18557e-08" x2="105.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 2" x1="225.5" y1="2.18557e-08" x2="225.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 12" x1="1440" y1="430.41" y2="430.41" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 39" x1="1440" y1="480.449" y2="480.449" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 40" x1="1440" y1="598.129" y2="598.129" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 37" x1="1440" y1="626.305" y2="626.305" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 38" x1="1440" y1="707.242" y2="707.242" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 13" x1="1440" y1="308.398" y2="308.398" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 14" x1="1440" y1="83.5977" y2="83.5977" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 15" x1="1440" y1="206.605" y2="206.605" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 3" x1="345.5" y1="2.18557e-08" x2="345.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 4" x1="465.5" y1="2.18557e-08" x2="465.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 5" x1="585.5" y1="2.18557e-08" x2="585.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 6" x1="705.5" y1="2.18557e-08" x2="705.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 7" x1="825.5" y1="2.18557e-08" x2="825.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 8" x1="945.5" y1="2.18557e-08" x2="945.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 9" x1="1065.5" y1="2.18557e-08" x2="1065.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 10" x1="1185.5" y1="2.18557e-08" x2="1185.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<line id="Line 11" x1="1305.5" y1="2.18557e-08" x2="1305.5" y2="740" stroke="#28282A" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+<g id="Group 9">
+<line id="Line 16" y1="-0.5" x2="18.5001" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 361 308.219)" stroke="#C9C9C9"/>
+<line id="Line 17" y1="-0.5" x2="33.5314" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 375 308.219)" stroke="#C9C9C9"/>
+<line id="Line 18" y1="-0.5" x2="54.344" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 392 307.637)" stroke="#C9C9C9"/>
+<line id="Line 19" y1="-0.5" x2="72.8441" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 408 307.637)" stroke="#C9C9C9"/>
+<line id="Line 20" y1="-0.5" x2="89.0316" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 423 307.637)" stroke="#C9C9C9"/>
+<line id="Line 21" y1="-0.5" x2="107.532" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 438 307.637)" stroke="#C9C9C9"/>
+<line id="Line 22" y1="-0.5" x2="123.719" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 453 307.637)" stroke="#C9C9C9"/>
+<line id="Line 23" y1="-0.5" x2="137.594" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 465 309.961)" stroke="#C9C9C9"/>
+<line id="Line 24" y1="-0.5" x2="137.594" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 464 319.824)" stroke="#C9C9C9"/>
+<line id="Line 25" y1="-0.5" x2="135.282" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 463 329.117)" stroke="#C9C9C9"/>
+<line id="Line 26" y1="-0.5" x2="135.282" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 463 338.402)" stroke="#C9C9C9"/>
+<line id="Line 27" y1="-0.5" x2="135.282" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 463 347.691)" stroke="#C9C9C9"/>
+<line id="Line 28" y1="-0.5" x2="137.594" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 464 355.82)" stroke="#C9C9C9"/>
+<line id="Line 29" y1="-0.5" x2="130.657" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 465 364.523)" stroke="#C9C9C9"/>
+<line id="Line 30" y1="-0.5" x2="109.844" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 462 374.969)" stroke="#C9C9C9"/>
+<line id="Line 31" y1="-0.5" x2="93.6567" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 464 383.098)" stroke="#C9C9C9"/>
+<line id="Line 32" y1="-0.5" x2="76.3128" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 463 392.383)" stroke="#C9C9C9"/>
+<line id="Line 33" y1="-0.5" x2="57.8128" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 464 401.09)" stroke="#C9C9C9"/>
+<line id="Line 34" y1="-0.5" x2="41.6252" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 465 409.219)" stroke="#C9C9C9"/>
+<line id="Line 35" y1="-0.5" x2="23.1251" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 465 418.504)" stroke="#C9C9C9"/>
+<line id="Line 36" y1="-0.5" x2="4.62502" y2="-0.5" transform="matrix(-0.864861 0.502011 -0.864861 -0.502011 465 427.793)" stroke="#C9C9C9"/>
+</g>
+<g id="Group 10">
+<line id="Line 16_2" y1="-0.5" x2="23.0314" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 961 212.223)" stroke="#C9C9C9"/>
+<line id="Line 17_2" y1="-0.5" x2="41.7445" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 975 212.223)" stroke="#C9C9C9"/>
+<line id="Line 18_2" y1="-0.5" x2="67.6548" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 992 211.188)" stroke="#C9C9C9"/>
+<line id="Line 19_2" y1="-0.5" x2="90.6863" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1008 211.188)" stroke="#C9C9C9"/>
+<line id="Line 20_2" y1="-0.5" x2="110.839" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1023 211.188)" stroke="#C9C9C9"/>
+<line id="Line 21_2" y1="-0.5" x2="133.87" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1038 211.188)" stroke="#C9C9C9"/>
+<line id="Line 22_2" y1="-0.5" x2="154.023" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1053 211.188)" stroke="#C9C9C9"/>
+<line id="Line 23_2" y1="-0.5" x2="171.296" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1065 215.328)" stroke="#C9C9C9"/>
+<line id="Line 24_2" y1="-0.5" x2="171.296" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1064 232.934)" stroke="#C9C9C9"/>
+<line id="Line 25_2" y1="-0.5" x2="168.417" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1063 249.496)" stroke="#C9C9C9"/>
+<line id="Line 26_2" y1="-0.5" x2="168.417" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1063 266.062)" stroke="#C9C9C9"/>
+<line id="Line 27_2" y1="-0.5" x2="168.417" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1063 282.633)" stroke="#C9C9C9"/>
+<line id="Line 28_2" y1="-0.5" x2="171.296" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1064 297.129)" stroke="#C9C9C9"/>
+<line id="Line 29_2" y1="-0.5" x2="162.66" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1065 312.656)" stroke="#C9C9C9"/>
+<line id="Line 30_2" y1="-0.5" x2="136.749" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1062 331.297)" stroke="#C9C9C9"/>
+<line id="Line 31_2" y1="-0.5" x2="116.597" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1064 345.793)" stroke="#C9C9C9"/>
+<line id="Line 32_2" y1="-0.5" x2="95.0047" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1063 362.355)" stroke="#C9C9C9"/>
+<line id="Line 33_2" y1="-0.5" x2="71.9732" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1064 377.887)" stroke="#C9C9C9"/>
+<line id="Line 34_2" y1="-0.5" x2="51.8207" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1065 392.383)" stroke="#C9C9C9"/>
+<line id="Line 35_2" y1="-0.5" x2="28.7893" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1065 408.953)" stroke="#C9C9C9"/>
+<line id="Line 36_2" y1="-0.5" x2="5.75786" y2="-0.5" transform="matrix(-0.694703 0.719297 -0.694703 -0.719297 1065 425.516)" stroke="#C9C9C9"/>
+</g>
+</g>
+</g></svg>

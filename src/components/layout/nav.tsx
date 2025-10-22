@@ -11,10 +11,10 @@ export default function Navbar() {
         </div>
 
         <nav className="max-lg:hidden flex items-center gap-8">
-          <Link href="#home" className="text-nav hover:opacity-80">
+          <Link href="/" className="text-nav hover:opacity-80">
             Home
           </Link>
-          <Link href="#about" className="text-nav hover:opacity-80">
+          <Link href="/about-us" className="text-nav hover:opacity-80">
             About
           </Link>
           <Link href="#focus" className="text-nav hover:opacity-80">
