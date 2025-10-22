@@ -1,25 +1,7 @@
-<svg viewBox="0 0 405 280.5" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="8ed68e82" x="0" y="0"><g id="HOMEPAGE" data-node-id="146:153" clip-path="url(#clip0_146_153)"><g id="OUR APPROACH " data-node-id="191:289"><g id="Frame 2147224307" data-node-id="191:292"><g id="Frame 2147224304_3" data-node-id="191:328"><g clip-path="url(#clip8_146_153)"><g id="Frame 2147224305_3" data-node-id="191:329">
-<circle id="Ellipse 2829_3" data-node-id="191:330" cx="202" cy="123" r="74.5" stroke="#73AFC8" stroke-opacity="0.8"/>
-<circle id="Ellipse 2830_3" data-node-id="191:331" cx="202" cy="123" r="49.5" stroke="#73AFC8" stroke-opacity="0.8"/>
-<circle id="Ellipse 2831_3" data-node-id="191:332" cx="202" cy="123" r="99.5" stroke="#73AFC8" stroke-opacity="0.8"/>
-<g id="Frame 2147224304_4" data-node-id="191:333">
-<circle id="Ellipse 2833_3" data-node-id="191:334" cx="202" cy="123" r="25" fill="#A77B5A"/>
-<path id="Vector_29" data-node-id="191:335" d="M205.63,125.56l2.54,-1.9c3,-2.25 4.33,-6.8 3.66,-10.49c-3.7,-0.67 -8.24,0.66 -10.49,3.66l-1.9,2.54M205.63,125.56l-4.33,3.1l-4.96,-4.96l3.1,-4.33M205.63,125.56v3.31c0,1.07 -0.35,2.12 -0.99,2.97l-0.87,1.16l-1.24,-1.24M199.44,119.37h-3.31c-1.07,0 -2.12,0.35 -2.97,0.99l-1.16,0.87l1.24,1.24M197.58,130.52l-4.34,1.24l1.44,-4.34M206.25,119.99c0.33,0 0.65,-0.13 0.88,-0.37c0.23,-0.23 0.36,-0.54 0.36,-0.87c0,-0.33 -0.13,-0.65 -0.36,-0.88c-0.23,-0.23 -0.55,-0.36 -0.88,-0.36c-0.33,0 -0.64,0.13 -0.87,0.36c-0.24,0.23 -0.37,0.55 -0.37,0.88c0,0.33 0.13,0.64 0.37,0.87c0.23,0.24 0.54,0.37 0.87,0.37z" stroke="#87CEEB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g><g id="Rectangle 34624272_3" data-node-id="191:336" filter="url(#filter6_f_146_153)">
-<path d="M0,161h405v119h-405z" fill="#F9F5EC"/>
-</g><g id="Rectangle 34624273_3" data-node-id="191:341" filter="url(#filter7_f_146_153)">
-<path d="M-1,-23h405v87h-405z" fill="#F9F5EC"/>
-</g></g></g></g></g></g><defs><filter id="filter6_f_146_153" x="-40" y="121" width="485" height="199" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_146_153"/>
-</filter><filter id="filter7_f_146_153" x="-41" y="-63" width="485" height="167" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_146_153"/>
-</filter><clipPath id="clip0_146_153">
-<rect width="1440" height="6082" fill="white" x="-954" y="-2323"/>
-</clipPath><clipPath id="clip8_146_153">
-<rect x="0" y="0" width="405" height="380" rx="8" fill="white"/>
-</clipPath></defs></svg>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="100" cy="100" r="74.5" stroke="#73AFC8" stroke-opacity="0.8"/>
+<circle cx="100" cy="100" r="49.5" stroke="#73AFC8" stroke-opacity="0.8"/>
+<circle cx="100" cy="100" r="99.5" stroke="#73AFC8" stroke-opacity="0.8"/>
+<circle cx="100" cy="100" r="25" fill="#A77B5A"/>
+<path d="M103.633 102.564L106.167 100.664C109.171 98.4097 110.501 93.8639 109.829 90.1707C106.135 89.4989 101.589 90.8287 99.3359 93.8329L97.436 96.3673M103.633 102.564L99.295 105.662L94.3377 100.705L97.436 96.3673M103.633 102.564V105.869C103.633 106.942 103.285 107.986 102.641 108.844L101.774 110L100.534 108.761M97.436 96.3673H94.1307C93.0581 96.3673 92.0144 96.7152 91.1563 97.3588L90 98.2263L91.2393 99.4657M95.577 107.521L91.2393 108.761L92.6844 104.423M104.252 96.987C104.581 96.987 104.896 96.8564 105.129 96.624C105.361 96.3916 105.492 96.0763 105.492 95.7477C105.492 95.419 105.361 95.1037 105.129 94.8713C104.896 94.6389 104.581 94.5083 104.252 94.5083C103.924 94.5083 103.608 94.6389 103.376 94.8713C103.144 95.1037 103.013 95.419 103.013 95.7477C103.013 96.0763 103.144 96.3916 103.376 96.624C103.608 96.8564 103.924 96.987 104.252 96.987Z" stroke="#87CEEB" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

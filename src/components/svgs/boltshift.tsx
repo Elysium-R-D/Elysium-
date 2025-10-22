@@ -3,9 +3,8 @@ import React from "react";
 export default function Boltshift() {
   return (
     <svg
-      width="170"
-      height="49"
       viewBox="0 0 170 49"
+      className="size-auto"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

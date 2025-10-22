@@ -13,14 +13,14 @@ export default function Home() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative pt-[171px] pb-20 px-20 min-h-screen"
+        className="relative pt-[85px] md:pt-[171px] pb-10 md:pb-20 lg:min-h-screen"
         style={{
           backgroundImage: "url(/images/hero-background.svg)",
           backgroundSize: "cover",
         }}
       >
         <div className="mw">
-          <div className="flex flex-col gap-6 max-w-[1218px]">
+          <div className="flex flex-col gap-2.5 md:gap-6 max-w-[1218px]">
             <h1 className="heading-hero">
               Research. Regulation. R&D. Backing the Future of Digital Economies
             </h1>
@@ -30,14 +30,14 @@ export default function Home() {
               to transform the digital economy.
             </p>
 
-            <div className="flex items-center gap-6 mt-6">
+            <div className="flex items-center gap-4 md:gap-6 mt-6">
               <button className="btn-brown text-button">
                 Explore Focus Areas
-                <ArrowRightIcon width={12} height={11} color="white" />
+                <ArrowRightIcon className="size-[14px]" color="white" />
               </button>
               <a
                 href="#incubation"
-                className="text-[14px] font-semibold underline hover:opacity-80"
+                className="text-[10px] md:text-[14px] font-semibold underline hover:opacity-80"
                 style={{ color: "var(--color-primary-dark)" }}
               >
                 Apply to Join Incubation
@@ -46,14 +46,14 @@ export default function Home() {
           </div>
 
           {/* Partner Logos */}
-          <div className="py-8 mt-20">
+          <div className="py-2 md:py-8 mt-12 md:mt-20">
             <h2
-              className="text-[24px]/[30px] font-semibold text-center mb-10"
+              className="text-[10px]/[150%] md:text-lg/6 lg:text-[24px]/[30px] font-semibold text-center mb-4 md:mb-10"
               style={{ color: "var(--color-primary-text)" }}
             >
               Our Partners & Ventures
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4 justify-between">
+            <div className="grid grid-cols-6 gap-2 justify-between">
               <Boltshift />
               <Lightbox />
               <FeatherDev />
@@ -66,9 +66,9 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="relative py-[50px]">
-        <div className="mw flex items-center gap-20">
-          <div className="flex-1 flex flex-col gap-5">
+      <section id="about" className="relative py-7 md:py-[50px]">
+        <div className="mw flex lg:items-center flex-col lg:flex-row gap-10 lg:gap-20">
+          <div className="flex-1 flex flex-col gap-3 md:gap-5">
             <h2 className="heading-large">Who We Are</h2>
             <p className="text-body-alt max-w-[475px]">
               We are a research-driven institute enabling blockchain innovation,
@@ -76,8 +76,9 @@ export default function Home() {
               and venture building, helping businesses and founders transform
               digital value systems.
             </p>
-            <button className="btn-brown text-button text-button mt-5">
+            <button className="btn-brown text-button mt-5 w-[140px]">
               Learn More
+              <ArrowRightIcon className="size-[14px]" color="white" />
             </button>
           </div>
 
@@ -94,39 +95,36 @@ export default function Home() {
               alt=""
               width={554}
               height={664}
-              className="absolute -right-0 -top-20 z-0"
+              className="max-lg:hidden absolute -right-0 -top-20 z-0"
             />
           </div>
         </div>
       </section>
 
       {/* Research Focus */}
-      <section id="focus" className="py-[50px]">
-        <div className="max-w-[1440px] mx-auto pl-[5.55%] flex items-center">
-          <div className="max-w-[535px] mb-16">
-            <h2 className="heading-section mb-6">
-              Our Research & Innovation Focus
-            </h2>
+      <section id="focus" className="py-7 md:py-[50px]">
+        <div className="max-w-[1440px] mx-auto pl-[5.55%] flex flex-col lg:flex-row lg:items-center gap-8 md:gap-16">
+          <div className="max-w-[535px] space-y-3 md:space-y-6">
+            <h2 className="heading-section">Our Research & Innovation Focus</h2>
             <p className="text-body">
               We invest in research and ventures that redefine global innovation
               from blockchain and AI to sustainable technologies. Each focus
               area drives progress toward a smarter, more resilient future.
             </p>
-            <div className="flex gap-2 mt-6">
+            <div className="flex gap-2">
               <div className="w-[82px] h-[11px] rounded-[18px] bg-(--color-accent-blue-light)"></div>
               <div className="w-[51px] h-[11px] rounded-[18px] bg-(--color-accent-blue-lighter)"></div>
               <div className="w-[51px] h-[11px] rounded-[18px] bg-(--color-accent-blue-lighter)"></div>
             </div>
           </div>
 
-          <div className="flex gap-8 overflow-x-auto hide-scrollbar">
+          <div className="flex gap-4 md:gap-8 overflow-x-auto hide-scrollbar">
             {[
               {
                 icon: (
-                  <span className="size-[83px] flex items-center justify-center">
+                  <span className="size-[64px] md:size-[83px] flex items-center justify-center">
                     <svg
-                      width="40"
-                      height="40"
+                      className="size-[30px] md:size-[40px]"
                       viewBox="0 0 40 40"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -144,8 +142,7 @@ export default function Home() {
               {
                 icon: (
                   <svg
-                    width="83"
-                    height="83"
+                    className="size-[64px] md:size-[83px]"
                     viewBox="0 0 83 83"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -186,10 +183,9 @@ export default function Home() {
               },
               {
                 icon: (
-                  <span className="size-[83px] flex items-center justify-center">
+                  <span className="size-[64px] md:size-[83px] flex items-center justify-center">
                     <svg
-                      width="40"
-                      height="40"
+                      className="size-[30px] md:size-[40px]"
                       viewBox="0 0 40 40"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -278,23 +274,25 @@ export default function Home() {
                 key={i}
                 className={`card-focus ${
                   i % 2 ? "bg-[var(--color-primary-accent)]" : "bg-[#fff]"
-                } w-[317px] h-[343px]`}
+                } w-[243px] md:w-[317px] h-[263px] md:h-[343px] shrink-0 flex flex-col items-start gap-2 md:gap-6`}
               >
-                <div className="mb-6">{card.icon}</div>
-                <h3
-                  className={`text-2xl font-bold tracking-[0.25px] mb-2.5 ${
-                    i % 2 ? "text-[#fff]" : "text-[#000]"
-                  }`}
-                >
-                  {card.title}
-                </h3>
-                <p
-                  className={`text-base/[22px] tracking-[0.1px] ${
-                    i % 2 ? "text-[#F6F0F0]" : "text-[#474646]"
-                  }`}
-                >
-                  {card.desc}
-                </p>
+                <div>{card.icon}</div>
+                <div className="flex flex-col gap-1.5 md:gap-2.5">
+                  <h3
+                    className={`text-lg md:text-2xl font-bold tracking-[0.25px] ${
+                      i % 2 ? "text-[#fff]" : "text-[#000]"
+                    }`}
+                  >
+                    {card.title}
+                  </h3>
+                  <p
+                    className={`text-xs/4 md:text-base/[22px] tracking-[0.1px] ${
+                      i % 2 ? "text-[#F6F0F0]" : "text-[#474646]"
+                    }`}
+                  >
+                    {card.desc}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -302,30 +300,33 @@ export default function Home() {
       </section>
 
       {/* Approach Section */}
-      <section id="program" className="py-[50px]">
+      <section id="program" className="py-7 md:py-[50px]">
         <div className="mw">
           <h2 className="heading-section text-center mb-4">Our Approach</h2>
           <p
-            className="text-body text-center mb-16"
+            className="text-body text-center mb-10 md:mb-16"
             style={{ color: "var(--color-black)" }}
           >
             Elysium operates at the intersection of research, regulation, and
             venture building.
           </p>
 
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8">
             {/* Step 1 */}
             <div className="card-approach bg-white">
-              <div
-                className="relative w-full h-[280px] mb-6 rounded-lg overflow-hidden"
-                style={{
-                  backgroundImage: "url(/images/approach-step1-bg.svg)",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              ></div>
+              <div className="h-[190px] md:h-[280px] w-full flex items-center justify-center">
+                <div
+                  className="relative w-full size-[155px] md:size-[200px] rounded-lg overflow-hidden"
+                  style={{
+                    backgroundImage: "url(/images/approach-step1-bg.svg)",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                />
+              </div>
+
               <p
-                className="text-[16px] font-medium mb-2"
+                className="text-[13px] md:text-base font-medium mb-2"
                 style={{ color: "var(--color-primary-accent)" }}
               >
                 Step 1
@@ -340,16 +341,18 @@ export default function Home() {
 
             {/* Step 2 */}
             <div className="card-approach bg-white">
-              <div
-                className="relative w-full h-[280px] mb-6 rounded-lg overflow-hidden"
-                style={{
-                  backgroundImage: "url(/images/approach-step2-bg.svg)",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              ></div>
+              <div className="h-[190px] md:h-[280px] w-full flex items-center justify-center">
+                <div
+                  className="relative w-full size-[155px] md:size-[200px] rounded-lg overflow-hidden"
+                  style={{
+                    backgroundImage: "url(/images/approach-step2-bg.svg)",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                />
+              </div>
               <p
-                className="text-[16px] font-medium mb-2"
+                className="text-[13px] md:text-base font-medium mb-2"
                 style={{ color: "var(--color-primary-accent)" }}
               >
                 Step 2
@@ -363,16 +366,18 @@ export default function Home() {
 
             {/* Step 3 */}
             <div className="card-approach bg-white">
-              <div
-                className="relative w-full h-[280px] mb-6 rounded-lg overflow-hidden"
-                style={{
-                  backgroundImage: "url(/images/approach-step3-bg.svg)",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              ></div>
+              <div className="h-[190px] md:h-[280px] w-full flex items-center justify-center">
+                <div
+                  className="relative w-full size-[155px] md:size-[200px] mb-6 rounded-lg overflow-hidden"
+                  style={{
+                    backgroundImage: "url(/images/approach-step3-bg.svg)",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                />
+              </div>
               <p
-                className="text-[16px] font-medium mb-2"
+                className="text-[13px] md:text-base font-medium mb-2"
                 style={{ color: "var(--color-primary-accent)" }}
               >
                 Step 3
@@ -388,21 +393,21 @@ export default function Home() {
       </section>
 
       {/* Ventures Section */}
-      <section className="relative py-[50px]">
+      <section className="relative py-7 md:py-[50px]">
         <Image
           src="/images/cubes-decoration.svg"
           alt=""
           width={250}
           height={207}
-          className="absolute left-8 top-24 opacity-50"
+          className="absolute left-0 lg:left-8 top-0 md:top-24 opacity-50 max-lg:size-16 w-[250px] h-[207px]"
         />
 
         <div className="mw relative z-10">
-          <h2 className="heading-section text-center mb-4">
+          <h2 className="text-[28px] md:text-[48px]/[58px] md:tracking-[0.32px] font-medium text-center mb-4">
             Ventures We Support
           </h2>
           <p
-            className="text-body text-center max-w-[764px] mx-auto mb-16"
+            className="text-body text-center max-w-[764px] mx-auto mb-6 md:mb-16"
             style={{ color: "var(--color-black)" }}
           >
             From digital wallets to compliance-driven blockchain systems,
@@ -411,7 +416,7 @@ export default function Home() {
           </p>
 
           {/* First Row */}
-          <div className="grid grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">
             {/* Digital Wallets */}
             <div className="card-venture bg-white">
               <Image
@@ -419,14 +424,14 @@ export default function Home() {
                 alt="Mobile phone displaying QR code for digital wallet payments"
                 width={405}
                 height={200}
-                className="w-full h-[200px] object-cover"
+                className="w-full h-[155px] md:h-[200px] object-cover"
               />
               <div className="p-6">
                 <h3 className="heading-venture mb-1">
                   Digital Wallets & Payments
                 </h3>
                 <p
-                  className="text-[18px] font-medium mb-2"
+                  className="text-sm md:text-lg font-medium mb-1 md:mb-2"
                   style={{ color: "var(--color-black)" }}
                 >
                   Enabling Borderless Transactions
@@ -491,7 +496,7 @@ export default function Home() {
           </div>
 
           {/* Second Row */}
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Sustainable Tech */}
             <div className="card-venture bg-white">
               <Image
@@ -499,12 +504,12 @@ export default function Home() {
                 alt="Hand holding glowing green digital globe"
                 width={405}
                 height={200}
-                className="w-full h-[200px] object-cover"
+                className="w-full h-[155px] md:h-[200px] object-cover"
               />
               <div className="p-6">
                 <h3 className="heading-venture mb-1">Sustainable Tech</h3>
                 <p
-                  className="text-[18px] font-medium mb-2"
+                  className="text-sm/text-lg font-medium mb-1 md:mb-2"
                   style={{ color: "var(--color-black)" }}
                 >
                   Building the Green Digital Future
@@ -571,7 +576,7 @@ export default function Home() {
       </section>
 
       {/* Partners Section */}
-      <section className="relative py-[50px]">
+      <section className="relative py-7 md:py-[50px]">
         <div
           className="absolute left-0 top-1/2 -translate-y-1/2 w-[87px] h-[405px] blur-[40px] opacity-30"
           style={{ backgroundColor: "var(--color-primary-accent)" }}
@@ -581,7 +586,7 @@ export default function Home() {
           style={{ backgroundColor: "var(--color-primary-accent)" }}
         ></div>
 
-        <div className="mw relative z-10 flex items-center gap-16">
+        <div className="mw relative z-10 flex items-center max-lg:flex-col-reverse gap-12 md:gap-16">
           <div className="flex-1">
             <Image
               src="/images/partner-logos-left.svg"
@@ -606,8 +611,8 @@ export default function Home() {
               >
                 Why Partner With Us
               </p>
-              <h2 className="heading-large mb-6">Together We Build</h2>
-              <p className="text-body-alt">
+              <h2 className="heading-large mb-3 md:mb-6">Together We Build</h2>
+              <p className="text-sm/[18px] md:text-lg/[28px]">
                 Elysium Research partners with institutions, innovators, and
                 investors who believe in building the future of digital
                 economies. Through our licensed infrastructure and deep research
@@ -616,32 +621,36 @@ export default function Home() {
                 turning research into real-world transformation.
               </p>
             </div>
-            <button className="btn-primary text-button w-fit">
+            <button className="btn-brown text-button w-[140px]">
               Become a Partner
+              <ArrowRightIcon className="size-[14px]" color="white" />
             </button>
           </div>
         </div>
       </section>
 
       {/* Blog Section */}
-      <section className="py-[50px]">
+      <section className="py-7 md:py-[50px]">
         <div className="mw">
-          <p className="text-[var(--color-primary-accent)] text-[14.93px] tracing-[1.07px] text-center mb-4">
+          <p className="text-[var(--color-primary-accent)] text-[10px] tracking-[0.66px] md:text-[14.93px] md:tracking-[1.07px] text-center mb-1.5 md:mb-4">
             OUR LATEST NEWS & BLOG
           </p>
-          <h2 className="heading-section text-center mb-16 max-w-[507px] mx-auto">
+          <h2 className="text-[28px] md:text-[48px]/[58px] md:tracking-[0.32px] text-center mb-8 md:mb-16 max-w-[507px] mx-auto">
             Stay updated with our latest posts
           </h2>
 
-          <div className="grid grid-cols-3 gap-8">
+          <div className="lg:grid lg:grid-cols-3 flex overflow-x-auto hide-scrollbar w-full gap-5 md:gap-8">
             {Array.from({ length: 3 }).map((_, i) => (
-              <div key={i} className="group cursor-pointer">
+              <div
+                key={i}
+                className="group max-lg:w-[300px] shrink-0 cursor-pointer"
+              >
                 <Image
                   src={`/images/blog-post-${i + 1}.jpg`}
                   alt="Team members high-fiving in office"
                   width={405}
                   height={228}
-                  className="w-full h-[228px] object-cover mb-6 group-hover:opacity-90"
+                  className="w-full h-[169px] md:h-[228px] object-cover mb-6 group-hover:opacity-90"
                 />
                 <p className="text-label mb-3">
                   BRANDING / DESIGN / 24.OCT.2022
@@ -700,19 +709,19 @@ export default function Home() {
       {/* CTA Section */}
       <section className="mw">
         <div
-          className="relative rounded-[19px] px-16 py-[50px] overflow-hidden"
+          className="relative rounded-[19px] px-[18px] py-[18px] md:px-16 md:py-[50px] overflow-hidden"
           style={{ backgroundColor: "var(--color-primary-accent)" }}
         >
-          <div className="flex gap-8 items-center justify-between">
+          <div className="flex gap-8 max-md:flex-col md:items-center justify-between">
             <div className="max-w-[540px]">
-              <h2 className="text-[50px] font-medium text-white mb-8">
+              <h2 className="text-[35px] md:text-[50px] font-medium text-white mb-[18px] md:mb-8">
                 Ready to Build the Future With Us?
               </h2>
               <div className="flex gap-4">
-                <button className="bg-white p-4 rounded-sm/6 font-medium hover:bg-gray-100 text-[#775740] w-[224px] rounded-[10px]">
+                <button className="bg-white p-2.5 sm:p-4 text-[8px]/[14px] sm:text-sm/6 font-medium hover:bg-gray-100 text-[#775740] w-full md:w-[224px] rounded-[6px] sm:rounded-[10px]">
                   Apply to Incubation
                 </button>
-                <button className="bg-white/25 text-white p-4 rounded-sm/6 font-medium hover:bg-white/10 w-[224px] rounded-[10px]">
+                <button className="bg-white/25 text-white p-2.5 sm:p-4 text-[8px]/[14px] sm:text-sm/6 font-medium hover:bg-white/10 w-full md:w-[224px] rounded-[6px] sm:rounded-[10px]">
                   Get Involved
                 </button>
               </div>
@@ -723,6 +732,7 @@ export default function Home() {
               alt=""
               width={361}
               height={300}
+              className="max-md:self-end w-[160px] h-[132px] lg:w-[361px] lg:h-[300px] object-contain"
             />
           </div>
         </div>

@@ -2,9 +2,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
-      width="160"
-      height="41"
       viewBox="0 0 160 41"
+      className="w-20 h-5 md:w-[160px] md:h-[41px]"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

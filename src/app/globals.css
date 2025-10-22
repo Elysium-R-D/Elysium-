@@ -47,7 +47,7 @@ body {
 
 /* Typography classes */
 .heading-hero {
-  @apply font-['Poppins',sans-serif] text-[40px] md:text-[70px] font-medium leading-[48px] md:leading-[80px];
+  @apply font-['Poppins',sans-serif] text-[35px]/[45px] md:text-[70px]/[80px] font-medium;
   color: var(--color-primary-text);
 }
 
@@ -67,32 +67,32 @@ body {
 }
 
 .heading-venture {
-  @apply font-['Poppins',sans-serif] text-[22px] font-bold;
+  @apply font-['Poppins',sans-serif] text-base md:text-[22px] font-bold;
   color: var(--color-primary-accent);
 }
 
 .heading-step {
-  @apply font-['Poppins',sans-serif] text-[18px] font-semibold;
+  @apply font-['Poppins',sans-serif] text-sm md:text-lg font-semibold;
   color: var(--color-primary-dark);
 }
 
 .text-body {
-  @apply font-['Poppins',sans-serif] text-[18px] font-normal leading-[27px];
+  @apply font-['Poppins',sans-serif] text-[10px]/[14px] md:text-lg/[27px] font-normal;
   color: var(--color-secondary-text);
 }
 
 .text-body-alt {
-  @apply font-['Poppins',sans-serif] text-[18px] font-normal leading-[28px];
+  @apply font-['Poppins',sans-serif] text-[10px]/[18px] md:text-lg/[28px] font-normal;
   color: var(--color-secondary-text);
 }
 
 .text-description {
-  @apply font-['Poppins',sans-serif] text-[16px] font-normal;
+  @apply font-['Poppins',sans-serif] text-[13px] md:text-base font-normal;
   color: var(--color-quaternary-text);
 }
 
 .text-description-inter {
-  @apply font-['Inter',sans-serif] text-[16px] font-normal tracking-[0.10px] leading-[22px];
+  @apply font-['Inter',sans-serif] text-[13px] md:text-base font-normal tracking-[0.10px] leading-[22px];
   color: var(--color-tertiary-text);
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .text-button {
-  @apply font-['Poppins',sans-serif] text-[14px] font-semibold tracking-[-2%] leading-[140%];
+  @apply font-['Poppins',sans-serif] text-[10px] md:text-[14px] font-semibold tracking-[-2%] leading-[140%];
   color: var(--color-white);
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .text-footer {
-  @apply font-['Poppins',sans-serif] text-[18.01px] font-normal leading-[17.94px];
+  @apply font-['Poppins',sans-serif] text-sm/[11.2px] md:text-lg/[17.94px] font-normal;
   color: var(--color-footer-link);
 }
 
@@ -128,7 +128,7 @@ body {
 }
 
 .btn-brown {
-  @apply py-4 px-[18px] rounded-[5px] h-[54px] w-[204px] bg-[var(--color-primary-accent)] flex items-center justify-center gap-1.5;
+  @apply py-2.5 md:py-4 px-3 md:px-[18px] rounded-[3px] md:rounded-[5px] h-[34px] md:h-[54px] min-w-[140px] md:w-[204px] bg-[var(--color-primary-accent)] flex items-center justify-center gap-1.5;
 }
 
 .btn-primary:hover {
@@ -147,7 +147,7 @@ body {
 
 /* Card styles */
 .card-focus {
-  @apply rounded-[14px] px-7 py-8;
+  @apply rounded-[10px] md:rounded-[14px] px-[22px] md:px-7 py-[23px] md:py-8;
 }
 
 .card-focus:hover {

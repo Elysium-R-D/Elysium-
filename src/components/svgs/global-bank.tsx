@@ -1,8 +1,7 @@
 export default function GlobalBank() {
   return (
     <svg
-      width="198"
-      height="49"
+      className="size-auto"
       viewBox="0 0 198 49"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

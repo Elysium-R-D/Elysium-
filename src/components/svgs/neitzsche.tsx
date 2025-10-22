@@ -3,8 +3,7 @@ import React from "react";
 export default function Neitzsche() {
   return (
     <svg
-      width="182"
-      height="49"
+      className="size-auto"
       viewBox="0 0 182 49"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
