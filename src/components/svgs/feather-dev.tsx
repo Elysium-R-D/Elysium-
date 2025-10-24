@@ -1,8 +1,8 @@
 export default function FeatherDev() {
   return (
     <svg
-      className="size-auto"
       viewBox="0 0 199 49"
+      className="w-[50px] h-[14px] sm:w-[199px] sm:h-[49px]"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

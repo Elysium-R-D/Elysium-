@@ -1,7 +1,7 @@
 export default function Streple() {
   return (
     <svg
-      className="size-auto"
+      className="w-[50px] h-[15px] sm:w-[171px] sm:h-[53px]"
       viewBox="0 0 171 53"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ export default function Boltshift() {
   return (
     <svg
       viewBox="0 0 170 49"
-      className="size-auto"
+      className="w-[50px] h-[14px] sm:w-[170px] sm:h-[49px]"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

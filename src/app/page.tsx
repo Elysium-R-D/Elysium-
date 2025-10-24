@@ -1,12 +1,7 @@
 import ArrowRightIcon from "@/components/icons/ArrowRightIcon";
 import Cta from "@/components/layout/cta";
-import Boltshift from "@/components/svgs/boltshift";
-import FeatherDev from "@/components/svgs/feather-dev";
-import GlobalBank from "@/components/svgs/global-bank";
-import Lightbox from "@/components/svgs/lightbox";
-import Neitzsche from "@/components/svgs/neitzsche";
-import Streple from "@/components/svgs/streple";
 import Image from "next/image";
+import PartnersAndVentures from "./_components/partners-and-ventures";
 
 export default function Home() {
   return (
@@ -47,22 +42,7 @@ export default function Home() {
           </div>
 
           {/* Partner Logos */}
-          <div className="py-2 md:py-8 mt-12 md:mt-20">
-            <h2
-              className="text-[10px]/[150%] md:text-lg/6 lg:text-[24px]/[30px] font-semibold text-center mb-4 md:mb-10"
-              style={{ color: "var(--color-primary-text)" }}
-            >
-              Our Partners & Ventures
-            </h2>
-            <div className="grid grid-cols-6 gap-2 justify-between">
-              <Boltshift />
-              <Lightbox />
-              <FeatherDev />
-              <Streple />
-              <GlobalBank />
-              <Neitzsche />
-            </div>
-          </div>
+          <PartnersAndVentures />
         </div>
       </section>
 
