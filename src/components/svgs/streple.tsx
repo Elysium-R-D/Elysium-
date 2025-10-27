@@ -1,6 +1,8 @@
 export default function Streple() {
   return (
     <svg
+      width={"171"}
+      height={"53"}
       className="w-[50px] h-[15px] sm:w-[171px] sm:h-[53px]"
       viewBox="0 0 171 53"
       fill="none"

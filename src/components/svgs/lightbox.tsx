@@ -1,6 +1,8 @@
 export default function Lightbox() {
   return (
     <svg
+      width={"168"}
+      height={"49"}
       className="w-[50px] h-[14px] sm:w-[168px] sm:h-[49px]"
       viewBox="0 0 168 49"
       fill="none"

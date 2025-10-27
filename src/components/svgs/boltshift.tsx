@@ -1,8 +1,8 @@
-import React from "react";
-
 export default function Boltshift() {
   return (
     <svg
+      width={"170"}
+      height={"49"}
       viewBox="0 0 170 49"
       className="w-[50px] h-[14px] sm:w-[170px] sm:h-[49px]"
       fill="none"

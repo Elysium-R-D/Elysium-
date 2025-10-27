@@ -1,6 +1,8 @@
 export default function FeatherDev() {
   return (
     <svg
+      width={"199"}
+      height={"49"}
       viewBox="0 0 199 49"
       className="w-[50px] h-[14px] sm:w-[199px] sm:h-[49px]"
       fill="none"

@@ -1,8 +1,8 @@
-import React from "react";
-
 export default function Neitzsche() {
   return (
     <svg
+      width={"182"}
+      height={"49"}
       className="w-[50px] h-[14px] sm:w-[182px] sm:h-[49px]"
       viewBox="0 0 182 49"
       fill="none"
