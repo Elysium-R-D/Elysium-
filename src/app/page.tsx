@@ -687,7 +687,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <Cta />
     </main>
   );
