@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex max-lg:flex-col max-lg:text-center gap-6 md:gap-8">
+          <div className="flex max-lg:flex-col max-lg:w-full gap-6 md:gap-8">
             <Link href="#about" className="text-footer hover:opacity-80">
               About
             </Link>
