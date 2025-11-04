@@ -71,7 +71,7 @@ export default function ContactUsPage() {
               Get In Touch
             </h1>
             <p className="text-base md:text-base font-normal text-[#333333] max-w-[1014px]">
-              Let’s create the future of digital economies together.
+              Let&apos;s create the future of digital economies together.
             </p>
           </div>
 
@@ -80,9 +80,9 @@ export default function ContactUsPage() {
 
             <div className="flex-1 flex flex-col gap-6">
               <p className="text-lg md:text-xl/[32px] font-normal text-[#333333]">
-                Whether you’re a startup founder, enterprise, or research
-                partner, we’re here to collaborate, advise, and build with you.
-                Reach out to explore partnerships, incubation, or research
+                Whether you&apos;re a startup founder, enterprise, or research
+                partner, we&apos;re here to collaborate, advise, and build with
+                you. Reach out to explore partnerships, incubation, or research
                 opportunities with Elysium Research.
               </p>
               <button className="btn-brown text-button w-fit">
