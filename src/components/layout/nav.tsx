@@ -25,9 +25,12 @@ export default function Navbar() {
           </Link>
         </nav>
 
-        <button className="max-lg:hidden! btn-primary text-button w-[204px]">
+        <Link
+          href="/contact-us"
+          className="max-lg:hidden! btn-primary text-button w-[204px]"
+        >
           Contact Us
-        </button>
+        </Link>
 
         <div className="cursor-pointer lg:hidden">
           <Hamburger />

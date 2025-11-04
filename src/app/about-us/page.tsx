@@ -7,7 +7,7 @@ export default function AboutUsPage() {
     <main className="flex flex-col gap-10 w-full overflow-hidden">
       {/* Hero Section */}
       <section
-        className="relative pt-[85px] md:pt-[171px] pb-10 md:pb-20"
+        className="relative pt-[85px] md:pt-[120px] pb-10 md:pb-40"
         style={{
           backgroundImage: "url(/images/about-hero-bg.svg)",
           backgroundSize: "cover",
