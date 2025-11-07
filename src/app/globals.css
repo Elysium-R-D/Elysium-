@@ -223,3 +223,54 @@ button {
 .animate-infinite-scroll-left {
   animation: infinite-scroll-left 25s linear infinite;
 }
+
+.offer-grid-layout {
+  @apply lg:grid lg:gap-2 max-lg:space-y-4;
+}
+
+@media (min-width: 1024px) {
+  .offer-grid-layout {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 700px;
+  }
+
+  .item-1 {
+    height: 348px;
+    grid-column: 1 / span 5;
+    grid-row: 1;
+  }
+
+  .item-2 {
+    width: 751px;
+    height: 264px;
+    grid-column: 6 / span 7;
+    grid-row: 1;
+  }
+
+  .item-3 {
+    height: 320px;
+    grid-column: 1 / span 5;
+    grid-row: 2;
+  }
+
+  .item-4 {
+    height: 404px;
+    grid-column: 6 / span 4;
+    grid-row: 2;
+    margin-top: -84px;
+  }
+
+  .item-5 {
+    height: 700px;
+    grid-column: 10 / span 3;
+    grid-row: 2;
+    margin-top: -84px;
+  }
+
+  .item-6 {
+    grid-column: 1 / -4;
+    grid-row: 3;
+    height: 288px;
+    margin-top: -380px;
+  }
+}
