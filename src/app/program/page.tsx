@@ -1,4 +1,5 @@
 import ArrowRightSmallIcon from "@/components/icons/ArrowRightSmallIcon";
+import Cta from "@/components/layout/cta";
 import Image from "next/image";
 
 const testimonials = [
@@ -337,6 +338,8 @@ export default function page() {
           </div>
         </div>
       </section>
+
+      <Cta />
     </main>
   );
 }

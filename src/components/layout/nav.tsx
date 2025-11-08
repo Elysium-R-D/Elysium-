@@ -29,10 +29,10 @@ export default function Navbar() {
           <Link href="/about-us" className="text-nav hover:opacity-80">
             About
           </Link>
-          <Link href="#focus" className="text-nav hover:opacity-80">
+          <Link href="/focus-area" className="text-nav hover:opacity-80">
             Focus Areas
           </Link>
-          <Link href="#program" className="text-nav hover:opacity-80">
+          <Link href="/program" className="text-nav hover:opacity-80">
             Program
           </Link>
         </nav>
