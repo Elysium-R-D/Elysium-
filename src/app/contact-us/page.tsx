@@ -67,10 +67,10 @@ export default function ContactUsPage() {
       >
         <div className="mw">
           <div className="flex flex-col gap-5 md:gap-6 mb-12 md:mb-20">
-            <h1 className="font-['Poppins',sans-serif] text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
+            <h1 className="font-['Poppins',sans-serif] text-[42px]/[45px] sm:text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
               Get In Touch
             </h1>
-            <p className="text-base md:text-base font-normal text-[#333333] max-w-[1014px]">
+            <p className="text-[10px]/[14px] md:text-base font-normal text-[#333333] max-w-[1014px]">
               Let&apos;s create the future of digital economies together.
             </p>
           </div>
@@ -79,7 +79,7 @@ export default function ContactUsPage() {
             <div className="flex-1"></div>
 
             <div className="flex-1 flex flex-col gap-6">
-              <p className="text-lg md:text-xl/[32px] font-normal text-[#333333]">
+              <p className="text-xs/5 md:text-lg/6 lg:text-xl/[32px] font-normal text-[#333333]">
                 Whether you&apos;re a startup founder, enterprise, or research
                 partner, we&apos;re here to collaborate, advise, and build with
                 you. Reach out to explore partnerships, incubation, or research

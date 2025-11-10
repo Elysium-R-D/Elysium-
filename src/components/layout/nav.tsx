@@ -56,7 +56,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu overlay */}
       <div
         id="mobile-menu"
         className={`lg:hidden fixed inset-0 z-[45] ${
@@ -64,7 +63,6 @@ export default function Navbar() {
         }`}
         aria-hidden={!mobileOpen}
       >
-        {/* Backdrop */}
         <div
           className={`absolute inset-0 bg-black/40 transition-opacity ${
             mobileOpen ? "opacity-100" : "opacity-0"
@@ -72,7 +70,6 @@ export default function Navbar() {
           onClick={closeMobile}
         />
 
-        {/* Right-side drawer */}
         <div
           className={`absolute top-0 right-0 bottom-0 w-[88%] max-w-[360px] bg-white shadow-[0_20px_40px_-10px_rgba(0,0,0,0.25)] transition-transform duration-200 ${
             mobileOpen ? "translate-x-0" : "translate-x-full"
@@ -94,14 +91,14 @@ export default function Navbar() {
               About
             </Link>
             <Link
-              href="#focus"
+              href="/focus-area"
               onClick={closeMobile}
               className="text-nav py-3 px-2 rounded hover:bg-black/5"
             >
               Focus Areas
             </Link>
             <Link
-              href="#program"
+              href="/program"
               onClick={closeMobile}
               className="text-nav py-3 px-2 rounded hover:bg-black/5"
             >

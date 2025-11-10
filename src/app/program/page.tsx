@@ -39,10 +39,10 @@ export default function page() {
       >
         <div className="mw">
           <div className="flex flex-col gap-5 md:gap-6 mb-12 md:mb-20">
-            <h1 className="font-['Poppins',sans-serif] text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
+            <h1 className="font-['Poppins',sans-serif] text-[42px]/[45px] sm:text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
               Program
             </h1>
-            <p className="text-base md:text-base font-normal text-[#333333] max-w-[1014px]">
+            <p className="text-[10px]/[14px] md:text-base font-normal text-[#333333] max-w-[1014px]">
               Empowering Founders with Structure, Insight, and Support
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function page() {
             <div className="flex-1"></div>
 
             <div className="flex-1 flex flex-col gap-6">
-              <p className="text-lg md:text-xl/[32px] font-normal text-[#333333]">
+              <p className="text-xs/5 md:text-lg/6 lg:text-xl/[32px] font-normal text-[#333333]">
                 Our incubation and venture program is built to help innovators
                 grow responsibly — from early research to market launch. We
                 combine academic rigor, regulatory clarity, and venture-building
@@ -70,7 +70,7 @@ export default function page() {
       <section className="relative pt-16">
         <div className="mw flex flex-col gap-[50px]">
           <div className="max-w-[869px]">
-            <p className="text-[var(--color-primary-accent)] text-sm/5 md:text-lg/[28px] font-semibold">
+            <p className="text-[var(--color-primary-accent)] text-[10px]/[14px] md:text-lg/[28px] font-semibold">
               What we Offer
             </p>
             <h2 className="text-[var(--color-primary-dark)] heading-section">
@@ -79,30 +79,30 @@ export default function page() {
           </div>
           <div className="offer-grid-layout [&>div]:bg-[#A77B5A] [&>div]:rounded-[10px]">
             <div className="item-1 pb-8 md:pb-12 lg:pb-0 max-lg:pb-[70px] pt-8 md:pt-12 lg:pt-[70px] px-4 md:px-8 space-y-4">
-              <h5 className="text-2xl/8 md:text-[32px]/[42px] font-medium text-white">
+              <h5 className="text-xl/6 md:text-2xl/8 lg::text-[32px]/[42px] font-medium text-white">
                 Regulatory Guidance
               </h5>
-              <p className="text-xs/5 md:text-lg/[28px] text-[#F9F5EC]">
+              <p className="text-xs/[18px] md:text-lg/[28px] text-[#F9F5EC]">
                 Innovation needs structure. Through our VASP-backed framework,
                 ventures get the compliance confidence and operational support
                 to scale securely across regions and regulatory systems.
               </p>
             </div>
             <div className="item-2 pb-8 md:pb-12 lg:pb-0 max-lg:pb-[70px] pt-8 md:pt-12 lg:pt-[70px] px-4 md:px-8 space-y-4">
-              <h5 className="text-2xl/8 md:text-[32px]/[42px] font-medium text-white">
+              <h5 className="text-xl/6 md:text-2xl/8 lg::text-[32px]/[42px] font-medium text-white">
                 Network & Partnerships
               </h5>
-              <p className="text-xs/5 md:text-lg/[28px] text-[#F9F5EC]">
+              <p className="text-xs/[18px] md:text-lg/[28px] text-[#F9F5EC]">
                 Gain direct connections to investors, enterprises, and partners
                 who share your vision for innovation. We open doors to global
                 opportunities that drive lasting impact.{" "}
               </p>
             </div>
             <div className="item-3 pb-8 md:pb-12 lg:pb-0 max-lg:pb-[70px] pt-8 md:pt-12 lg:pt-[70px] px-4 md:px-8 space-y-4">
-              <h5 className="text-2xl/8 md:text-[32px]/[42px] font-medium text-white">
+              <h5 className="text-xl/6 md:text-2xl/8 lg::text-[32px]/[42px] font-medium text-white">
                 Funding Support
               </h5>
-              <p className="text-xs/5 md:text-lg/[28px] text-[#F9F5EC]">
+              <p className="text-xs/[18px] md:text-lg/[28px] text-[#F9F5EC]">
                 We go beyond investment we build with you. From early-stage
                 funding to hands-on R&D execution, founders get access to the
                 tools, technical expertise, and capital needed to bring ideas to
@@ -110,10 +110,10 @@ export default function page() {
               </p>
             </div>
             <div className="item-4 pb-8 md:pb-12 lg:pb-0 max-lg:pb-[70px] pt-8 md:pt-12 lg:pt-[70px] px-4 md:px-8 space-y-4">
-              <h5 className="text-2xl/8 md:text-[32px]/[42px] font-medium text-white">
+              <h5 className="text-xl/6 md:text-2xl/8 lg::text-[32px]/[42px] font-medium text-white">
                 Mentorship & Growth
               </h5>
-              <p className="text-xs/5 md:text-lg/[28px] text-[#F9F5EC]">
+              <p className="text-xs/[18px] md:text-lg/[28px] text-[#F9F5EC]">
                 Learn directly from experienced researchers, builders, and
                 business leaders who provide tailored guidance to strengthen
                 your strategy and execution.
@@ -131,7 +131,7 @@ export default function page() {
               />
             </div>
             <div className="item-6 pb-8 md:pb-12 lg:pb-0 max-lg:pb-[70px] pt-8 md:pt-12 lg:pt-[70px] px-4 md:px-8 space-y-4">
-              <h5 className="text-2xl/8 md:text-[32px]/[42px] font-medium text-white">
+              <h5 className="text-xl/[18px] md:text-2xl/8 lg::text-[32px]/[42px] font-medium text-white">
                 Research & Development
               </h5>
               <p className="text-xs/5 md:text-lg/[28px] text-[#F9F5EC]">
@@ -161,56 +161,56 @@ export default function page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
             <div className="md:border-r border-r-[#D9C6B8] px-4 md:px-6 py-5 flex flex-col gap-4 md:gap-6">
               <div className="space-y-1.5">
-                <p className="text-xs/4 md:text-sm/[18px] font-medium text-[#A77B5A]">
+                <p className="md:text-sm/[18px] font-medium text-[#A77B5A]">
                   Step 1
                 </p>
                 <p className="text-sm/[18px] md:text-base/5 font-semibold text-[#0D1B2A]">
                   Apply & Get Evaluated
                 </p>
               </div>
-              <p className="text-[#333] text-xs/4 md:text-sm/5">
+              <p className="text-[#333] md:text-sm/5">
                 Submit your idea for review based on innovation, market value,
                 and alignment with our research goals.
               </p>
             </div>
             <div className="md:border-r border-r-[#D9C6B8] px-4 md:px-6 py-5 flex flex-col gap-4 md:gap-6">
               <div className="space-y-1.5">
-                <p className="text-xs/4 md:text-sm/[18px] font-medium text-[#A77B5A]">
+                <p className="md:text-sm/[18px] font-medium text-[#A77B5A]">
                   Step 2
                 </p>
                 <p className="text-sm/[18px] md:text-base/5 font-semibold text-[#0D1B2A]">
                   Research & Validation
                 </p>
               </div>
-              <p className="text-[#333] text-xs/4 md:text-sm/5">
+              <p className="text-[#333] md:text-sm/5">
                 Refine your concept with expert insights and data to build a
                 strong foundation.
               </p>
             </div>
             <div className="md:border-r border-r-[#D9C6B8] px-4 md:px-6 py-5 flex flex-col gap-4 md:gap-6">
               <div className="space-y-1.5">
-                <p className="text-xs/4 md:text-sm/[18px] font-medium text-[#A77B5A]">
+                <p className="md:text-sm/[18px] font-medium text-[#A77B5A]">
                   Step 3
                 </p>
                 <p className="text-sm/[18px] md:text-base/5 font-semibold text-[#0D1B2A]">
                   Build & Fund
                 </p>
               </div>
-              <p className="text-[#333] text-xs/4 md:text-sm/5">
+              <p className="text-[#333] md:text-sm/5">
                 Once approved, access our technical resources, R&D backing, and
                 funding support to start building and testing your product.
               </p>
             </div>
             <div className="px-4 md:px-6 py-5 flex flex-col gap-4 md:gap-6">
               <div className="space-y-1.5">
-                <p className="text-xs/4 md:text-sm/[18px] font-medium text-[#A77B5A]">
+                <p className="md:text-sm/[18px] font-medium text-[#A77B5A]">
                   Step 4
                 </p>
                 <p className="text-sm/[18px] md:text-base/5 font-semibold text-[#0D1B2A]">
                   Launch & Scale
                 </p>
               </div>
-              <p className="text-[#333] text-xs/4 md:text-sm/5">
+              <p className="text-[#333] md:text-sm/5">
                 With mentorship and regulatory guidance, bring your solution to
                 market confidently and connect with global investors and
                 partners.
@@ -227,7 +227,7 @@ export default function page() {
 
       <section className="relative py-16 md:py-24">
         <div className="flex flex-col items-center justify-center mw">
-          <p className="text-[var(--color-primary-accent)] tracking-[6%] text-xs/4 font-semibold">
+          <p className="text-[var(--color-primary-accent)] tracking-[6%] text-[10px] md:text-xs/4 font-semibold">
             TESTIMONIAL
           </p>
           <h2 className="md:mt-3 text-[var(--color-primary-dark)] heading-section">
@@ -243,7 +243,7 @@ export default function page() {
                 <div className="flex justify-between items-start mb-4">
                   <div className="flex items-center">
                     <Image
-                      className="rounded-full object-top object-cover mr-4"
+                      className="size-10 md:size-[50px] rounded-full object-top object-cover mr-4"
                       width={50}
                       height={50}
                       src={t.avatarUrl}
@@ -253,7 +253,7 @@ export default function page() {
                       <div className="text-[#1E1E1E] font-bold text-xs/4 md:text-sm/5">
                         {t.name}
                       </div>
-                      <div className="text-[#1E1E1E99] text-xs/4 md:text-sm/5">
+                      <div className="text-[#1E1E1E99] text-[10px]/[14px] md:text-xs/4 lg:text-sm/5">
                         {t.title}
                       </div>
                     </div>
@@ -273,7 +273,7 @@ export default function page() {
                     </svg>
                   </span>
                 </div>
-                <p className="text-[#333333] text-xs/4 md:text-sm/5">
+                <p className="text-[#333333] text-[10px]/[14px] md:text-xs/4 lg::text-sm/5">
                   {t.quote}
                 </p>
               </div>
@@ -328,6 +328,13 @@ export default function page() {
               ))}
             </div>
             <div className="flex-1 flex flex-col items-center justify-center">
+              <Image
+                src={"/images/question-mark.png"}
+                alt="question mark illustration"
+                width={280}
+                height={255}
+                className="mb-4 md:mb-10"
+              />
               <p className="text-2xl md:text-[32px] leading-[150%] font-semibold text-[#8E694D]">
                 Any Question?
               </p>

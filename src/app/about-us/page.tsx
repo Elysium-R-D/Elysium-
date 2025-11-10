@@ -16,10 +16,10 @@ export default function AboutUsPage() {
       >
         <div className="mw">
           <div className="flex flex-col gap-5 md:gap-6 mb-12 md:mb-20">
-            <h1 className="font-['Poppins',sans-serif] text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
+            <h1 className="font-['Poppins',sans-serif] text-[42px]/[45px] sm:text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
               About US
             </h1>
-            <p className="text-base md:text-base font-normal text-[#333333] max-w-[1014px]">
+            <p className="text-[10px]/[14px] md:text-base font-normal text-[#333333] max-w-[1014px]">
               Where Research Meets Real-World Impact, transforming ideas into
               sustainable digital ventures.
             </p>
@@ -29,7 +29,7 @@ export default function AboutUsPage() {
             <div className="flex-1"></div>
 
             <div className="flex-1 flex flex-col gap-6">
-              <p className="text-lg md:text-xl/[32px] font-normal text-[#333333]">
+              <p className="text-xs/5 md:text-lg/6 lg:text-xl/[32px] font-normal text-[#333333]">
                 Elysium Research is a blockchain-focused institute advancing
                 innovation through research, regulatory infrastructure, and
                 venture development. We connect insight, compliance, and capital

@@ -51,19 +51,19 @@ export default function Footer() {
           </div>
 
           <div className="flex max-lg:flex-col max-lg:w-full gap-6 md:gap-8">
-            <Link href="#about" className="text-footer hover:opacity-80">
+            <Link href="/about" className="text-footer hover:opacity-80">
               About
             </Link>
-            <Link href="#focus" className="text-footer hover:opacity-80">
+            <Link href="/focus-area" className="text-footer hover:opacity-80">
               Focus Area
             </Link>
-            <Link href="#ventures" className="text-footer hover:opacity-80">
+            <Link href="/ventures" className="text-footer hover:opacity-80">
               Ventures
             </Link>
-            <Link href="#insights" className="text-footer hover:opacity-80">
+            <Link href="/insights" className="text-footer hover:opacity-80">
               Insights
             </Link>
-            <Link href="#careers" className="text-footer hover:opacity-80">
+            <Link href="/careers" className="text-footer hover:opacity-80">
               Careers
             </Link>
           </div>
