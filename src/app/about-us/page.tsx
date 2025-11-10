@@ -1,6 +1,7 @@
 import ArrowRightSmallIcon from "@/components/icons/ArrowRightSmallIcon";
 import Cta from "@/components/layout/cta";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutUsPage() {
   return (
@@ -36,10 +37,12 @@ export default function AboutUsPage() {
                 to help founders, institutions, and regulators build sustainable
                 digital economies across Africa and beyond.
               </p>
-              <button className="btn-brown text-button w-fit">
-                Explore Focus Areas
-                <ArrowRightSmallIcon className="w-3 h-[11px]" />
-              </button>
+              <Link href={"/focus-area"}>
+                <button className="btn-brown text-button w-fit">
+                  Explore Focus Areas
+                  <ArrowRightSmallIcon className="w-3 h-[11px]" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

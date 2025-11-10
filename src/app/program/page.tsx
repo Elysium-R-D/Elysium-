@@ -1,6 +1,7 @@
 import ArrowRightSmallIcon from "@/components/icons/ArrowRightSmallIcon";
 import Cta from "@/components/layout/cta";
 import Image from "next/image";
+import Link from "next/link";
 
 const testimonials = [
   {
@@ -58,10 +59,12 @@ export default function page() {
                 expertise to turn bold ideas into sustainable, compliant
                 businesses.
               </p>
-              <button className="btn-brown text-button w-fit">
-                Apply now
-                <ArrowRightSmallIcon className="w-3 h-[11px]" />
-              </button>
+              <Link href={"/application"}>
+                <button className="btn-brown text-button w-fit">
+                  Apply now
+                  <ArrowRightSmallIcon className="w-3 h-[11px]" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -218,10 +221,12 @@ export default function page() {
             </div>
           </div>
 
-          <button className="btn-brown text-button w-fit">
-            Apply now
-            <ArrowRightSmallIcon className="w-3 h-[11px]" />
-          </button>
+          <Link href={"/application"}>
+            <button className="btn-brown text-button w-fit">
+              Apply now
+              <ArrowRightSmallIcon className="w-3 h-[11px]" />
+            </button>
+          </Link>
         </div>
       </section>
 

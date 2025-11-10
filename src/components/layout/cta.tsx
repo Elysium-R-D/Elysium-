@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Cta() {
   return (
@@ -13,9 +14,11 @@ export default function Cta() {
               Ready to Build the Future With Us?
             </h2>
             <div className="flex gap-4">
-              <button className="bg-white p-2.5 sm:p-4 text-[8px]/[14px] sm:text-sm/6 font-medium hover:bg-gray-100 text-[#775740] w-full md:w-[224px] rounded-[6px] sm:rounded-[10px]">
-                Apply to Incubation
-              </button>
+              <Link href={"/application"}>
+                <button className="bg-white p-2.5 sm:p-4 text-[8px]/[14px] sm:text-sm/6 font-medium hover:bg-gray-100 text-[#775740] w-full md:w-[224px] rounded-[6px] sm:rounded-[10px]">
+                  Apply to Incubation
+                </button>
+              </Link>
               <button className="bg-white/25 text-white p-2.5 sm:p-4 text-[8px]/[14px] sm:text-sm/6 font-medium hover:bg-white/10 w-full md:w-[224px] rounded-[6px] sm:rounded-[10px]">
                 Get Involved
               </button>

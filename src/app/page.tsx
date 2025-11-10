@@ -2,6 +2,7 @@ import ArrowRightIcon from "@/components/icons/ArrowRightIcon";
 import Cta from "@/components/layout/cta";
 import Image from "next/image";
 import PartnersAndVentures from "./_components/partners-and-ventures";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,13 +32,13 @@ export default function Home() {
                 Explore Focus Areas
                 <ArrowRightIcon className="size-[14px]" color="white" />
               </button>
-              <a
-                href="#incubation"
+              <Link
+                href="/application"
                 className="text-[10px] md:text-[14px] font-semibold underline hover:opacity-80"
                 style={{ color: "var(--color-primary-dark)" }}
               >
                 Apply to Join Incubation
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -83,8 +84,8 @@ export default function Home() {
       </section>
 
       {/* Research Focus */}
-      <section id="focus" className="py-7 md:py-[50px]">
-        <div className="max-w-[1440px] mx-auto pl-[5.55%] flex flex-col items-center gap-8 md:gap-16">
+      <section id="focus" className="py-7 md:py-[50px] relative">
+        <div className="max-w-[1440px] mx-auto px-[5.55%] flex flex-col items-center gap-8 md:gap-16">
           <div className="max-w-[913px] mx-auto text-center space-y-3 md:space-y-6">
             <h2 className="heading-section">Our Research & Innovation Focus</h2>
             <p className="text-body">
