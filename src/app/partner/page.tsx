@@ -11,12 +11,11 @@ export default function ApplicationPage() {
     email: "",
     phoneNumber: "",
     companyName: "",
-    website: "",
+    role: "",
     country: "",
-    stageOfVenture: "",
-    areaOfFocus: "",
-    ventureDescription: "",
-    supportSeeking: "",
+    areaOfPartnership: "",
+    website: "",
+    howDidYouHearAboutUs: "",
     additionalNotes: "",
   });
 
@@ -45,12 +44,11 @@ export default function ApplicationPage() {
         email: "",
         phoneNumber: "",
         companyName: "",
-        website: "",
+        role: "",
         country: "",
-        stageOfVenture: "",
-        areaOfFocus: "",
-        ventureDescription: "",
-        supportSeeking: "",
+        areaOfPartnership: "",
+        website: "",
+        howDidYouHearAboutUs: "",
         additionalNotes: "",
       });
     }, 1500);
@@ -65,15 +63,8 @@ export default function ApplicationPage() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const [pitchDeckFile, setPitchDeckFile] = useState<File | null>(null);
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files && e.target.files[0] ? e.target.files[0] : null;
-    setPitchDeckFile(file);
-  };
-
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
       <section
         className="relative pt-[85px] md:pt-[120px] pb-10 md:pb-40"
         style={{
@@ -85,11 +76,11 @@ export default function ApplicationPage() {
         <div className="mw">
           <div className="flex flex-col gap-5 md:gap-6 mb-12 md:mb-20">
             <h1 className="font-['Poppins',sans-serif] text-[42px]/[45px] sm:text-[60px]/[72px] md:text-[120px]/[144px] font-normal text-[#151d26]">
-              Application Form
+              Become a Partner
             </h1>
             <p className="text-[10px]/[14px] md:text-base font-normal text-[#333333] max-w-[1014px]">
-              Please share your details and a brief overview of your project or
-              venture.
+              Let’s collaborate on research, infrastructure, and digital
+              innovation.
             </p>
           </div>
 
@@ -98,13 +89,13 @@ export default function ApplicationPage() {
 
             <div className="flex-1 flex flex-col gap-6">
               <p className="text-xs/5 md:text-lg/6 lg:text-xl/[32px] font-normal text-[#333333]">
-                At Elysium, we take time to understand each founder&apos;s
-                vision, the problem being solved, and the impact you aim to
-                create. Our team carefully reviews every submission to assess
-                alignment with our research and venture goals. If your
-                application fits our criteria, we&apos;ll reach out to schedule
-                a discovery call and explore how we can best support your growth
-                journey.
+                Elysium Research partners with institutions and innovators to
+                advance the future of digital economies. Through deep research,
+                VASP-backed regulatory infrastructure, and hands-on R&D
+                execution, we provide a trusted pathway to build and scale
+                secure digital solutions. Partnering with Elysium means gaining
+                a compliance-driven, research-focused ally committed to
+                developing long-term, globally viable blockchain innovation.
               </p>
               <button className="btn-brown text-button w-fit">
                 Explore Focus Areas
@@ -115,13 +106,22 @@ export default function ApplicationPage() {
         </div>
       </section>
 
-      {/* Contact Form Section */}
       <section className="py-16 md:py-24">
         <div className="mw">
           <div className="max-w-[1216px] mx-auto space-y-12">
-            {/* Form */}
+            <div className="space-y-6">
+              <h2 className="heading-section">
+                Let&apos;s Start the Conversation
+              </h2>
+              <p className="font-['Poppins',sans-serif] text-lg leading-[1.5] text-[var(--color-primary-text)]">
+                Collaborate with Elysium to advance research, strengthen
+                regulatory innovation, and build the next generation of
+                blockchain infrastructure. Share your details below, and our
+                partnership team will reach out.
+              </p>
+            </div>
+
             <form onSubmit={handleSubmit} className="space-y-11">
-              {/* First Row: First Name & Last Name */}
               <div className="grid md:grid-cols-2 gap-11">
                 <div className="space-y-3">
                   <label
@@ -159,7 +159,6 @@ export default function ApplicationPage() {
                 </div>
               </div>
 
-              {/* Second Row: Email & Phone Number */}
               <div className="grid md:grid-cols-2 gap-11">
                 <div className="space-y-3">
                   <label
@@ -196,14 +195,13 @@ export default function ApplicationPage() {
                 </div>
               </div>
 
-              {/* Third Row: Company & Website */}
               <div className="grid md:grid-cols-2 gap-11">
                 <div className="space-y-3">
                   <label
                     htmlFor="companyName"
                     className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
                   >
-                    Company / Project Name
+                    Company Name
                   </label>
                   <input
                     type="text"
@@ -216,30 +214,45 @@ export default function ApplicationPage() {
                 </div>
                 <div className="space-y-3">
                   <label
-                    htmlFor="website"
+                    htmlFor="role"
                     className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
                   >
-                    Website or Portfolio
+                    Role / Position
                   </label>
                   <input
                     type="url"
-                    id="website"
-                    name="website"
-                    value={formData.website}
+                    id="role"
+                    name="role"
+                    value={formData.role}
                     onChange={handleChange}
                     className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
                   />
                 </div>
               </div>
 
-              {/* Fourth Row: Country & Stage of Venture */}
               <div className="grid md:grid-cols-2 gap-11">
+                <div className="space-y-3">
+                  <label
+                    htmlFor="areaOfPartnership"
+                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                  >
+                    Area of Partnership Interest
+                  </label>
+                  <input
+                    type="text"
+                    id="areaOfPartnership"
+                    name="areaOfPartnership"
+                    value={formData.areaOfPartnership}
+                    onChange={handleChange}
+                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                  />
+                </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="country"
                     className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
                   >
-                    Country / Region
+                    Country
                   </label>
                   <input
                     type="text"
@@ -250,108 +263,49 @@ export default function ApplicationPage() {
                     className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
                   />
                 </div>
-                <div className="space-y-3">
-                  <label
-                    htmlFor="stageOfVenture"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
-                  >
-                    Stage of Venture
-                  </label>
-                  <input
-                    type="text"
-                    id="stageOfVenture"
-                    name="stageOfVenture"
-                    value={formData.stageOfVenture}
-                    onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
-                  />
-                </div>
               </div>
 
-              {/* Fifth Row: Area of Focus & Venture Description */}
               <div className="grid md:grid-cols-2 gap-11">
                 <div className="space-y-3">
                   <label
-                    htmlFor="areaOfFocus"
+                    htmlFor="website"
                     className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
                   >
-                    Area of Focus
+                    Website or Portfolio (Optional)
                   </label>
                   <input
                     type="text"
-                    id="areaOfFocus"
-                    name="areaOfFocus"
-                    value={formData.areaOfFocus}
+                    id="website"
+                    name="website"
+                    value={formData.website}
                     onChange={handleChange}
                     className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
-                    htmlFor="ventureDescription"
+                    htmlFor="howDidYouHearAboutUs"
                     className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
                   >
-                    Brief Description of Your Venture
+                    How Did You Hear About Us
                   </label>
                   <input
                     type="text"
-                    id="ventureDescription"
-                    name="ventureDescription"
-                    value={formData.ventureDescription}
+                    id="howDidYouHearAboutUs"
+                    name="howDidYouHearAboutUs"
+                    value={formData.howDidYouHearAboutUs}
                     onChange={handleChange}
                     className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
                   />
                 </div>
               </div>
 
-              {/* Sixth Row: Support Seeking & Upload Pitch Deck */}
-              <div className="grid md:grid-cols-2 gap-11">
-                <div className="space-y-3">
-                  <label
-                    htmlFor="supportSeeking"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
-                  >
-                    What Support Are You Seeking?
-                  </label>
-                  <input
-                    type="text"
-                    id="supportSeeking"
-                    name="supportSeeking"
-                    value={formData.supportSeeking}
-                    onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
-                  />
-                </div>
-                <div className="space-y-3">
-                  <label
-                    htmlFor="pitchDeck"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
-                  >
-                    Upload Pitch Deck
-                  </label>
-                  <input
-                    type="file"
-                    id="pitchDeck"
-                    name="pitchDeck"
-                    accept="application/pdf,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation"
-                    onChange={handleFileChange}
-                    className="w-full h-20 px-5 py-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-[var(--color-primary-accent)] file:text-white"
-                  />
-                  {pitchDeckFile && (
-                    <p className="text-sm text-[var(--color-primary-text)]">
-                      Selected: {pitchDeckFile.name}
-                    </p>
-                  )}
-                </div>
-              </div>
-
-              {/* Additional Notes Textarea */}
               <div className="space-y-3">
                 <label
                   htmlFor="additionalNotes"
                   className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
                 >
-                  Additional Notes
+                  Tell Us About Your Partnership Goals
                 </label>
                 <textarea
                   id="additionalNotes"

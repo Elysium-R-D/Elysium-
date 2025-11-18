@@ -63,7 +63,7 @@ export default function Footer() {
             <Link href="/insights" className="text-footer hover:opacity-80">
               Insights
             </Link>
-            <Link href="/careers" className="text-footer hover:opacity-80">
+            <Link href="/partner" className="text-footer hover:opacity-80">
               Careers
             </Link>
           </div>
