@@ -1,5 +1,6 @@
 import ArrowRightSmallIcon from "@/components/icons/ArrowRightSmallIcon";
 import Cta from "@/components/layout/cta";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -34,7 +35,7 @@ export default function page() {
                 trusted and inclusive digital future.
               </p>
               <button className="btn-brown text-button w-fit">
-                Partner with us
+                application with us
                 <ArrowRightSmallIcon className="w-3 h-[11px]" />
               </button>
             </div>
@@ -86,7 +87,7 @@ export default function page() {
                 </p>
               </div>
               <Link
-                href="/focus-area"
+                href="/application"
                 className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
               >
                 Explore Collaboration
@@ -167,7 +168,7 @@ export default function page() {
                 </p>
               </div>
               <Link
-                href="/focus-area"
+                href="/application"
                 className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
               >
                 Explore Collaboration
@@ -248,7 +249,7 @@ export default function page() {
                 </p>
               </div>
               <Link
-                href="/focus-area"
+                href="/application"
                 className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
               >
                 Explore Collaboration
@@ -328,7 +329,7 @@ export default function page() {
                 </p>
               </div>
               <Link
-                href="/focus-area"
+                href="/application"
                 className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
               >
                 Explore Collaboration
@@ -409,7 +410,7 @@ export default function page() {
                 </p>
               </div>
               <Link
-                href="/focus-area"
+                href="/application"
                 className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
               >
                 Explore Collaboration

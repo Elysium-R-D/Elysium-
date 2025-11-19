@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import ArrowRightSmallIcon from "@/components/icons/ArrowRightSmallIcon";
 import ArrowRightIcon from "@/components/icons/ArrowRightIcon";
+import Link from "next/link";
 
 export default function ApplicationPage() {
   const [formData, setFormData] = useState({
@@ -97,10 +98,12 @@ export default function ApplicationPage() {
                 a compliance-driven, research-focused ally committed to
                 developing long-term, globally viable blockchain innovation.
               </p>
-              <button className="btn-brown text-button w-fit">
-                Explore Focus Areas
-                <ArrowRightSmallIcon className="w-3 h-[11px]" />
-              </button>
+              <Link href={"/focus-area"}>
+                <button className="btn-brown text-button w-fit">
+                  Explore Focus Areas
+                  <ArrowRightSmallIcon className="w-3 h-[11px]" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

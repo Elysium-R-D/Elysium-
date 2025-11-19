@@ -4,6 +4,7 @@ import { useState, type FormEvent } from "react";
 import ArrowRightSmallIcon from "@/components/icons/ArrowRightSmallIcon";
 import ArrowRightIcon from "@/components/icons/ArrowRightIcon";
 import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
+import Link from "next/link";
 
 export default function ContactUsPage() {
   const [formData, setFormData] = useState({
@@ -85,10 +86,12 @@ export default function ContactUsPage() {
                 you. Reach out to explore partnerships, incubation, or research
                 opportunities with Elysium Research.
               </p>
-              <button className="btn-brown text-button w-fit">
-                Explore Focus Areas
-                <ArrowRightSmallIcon className="w-3 h-[11px]" />
-              </button>
+              <Link href={"/focus-area"}>
+                <button className="btn-brown text-button w-fit">
+                  Explore Focus Areas
+                  <ArrowRightSmallIcon className="w-3 h-[11px]" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
