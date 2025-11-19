@@ -85,7 +85,10 @@ export default function page() {
                   borderless economies.
                 </p>
               </div>
-              <p className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2">
+              <Link
+                href="/focus-area"
+                className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
+              >
                 Explore Collaboration
                 <svg
                   width="21"
@@ -102,7 +105,7 @@ export default function page() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </p>
+              </Link>
             </div>
             <div className="p-8 md:p-16 self-end max-w-[939px] border-b-[5px] border-b-[#A77B5A] border border-[#D9C6B8] bg-white rounded-[20px] space-y-4">
               <div className="space-y-4 md:space-y-6">
@@ -163,7 +166,10 @@ export default function page() {
                   systems.
                 </p>
               </div>
-              <p className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2">
+              <Link
+                href="/focus-area"
+                className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
+              >
                 Explore Collaboration
                 <svg
                   width="21"
@@ -180,7 +186,7 @@ export default function page() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </p>
+              </Link>
             </div>
             <div className="p-8 md:p-16 max-w-[939px] border-b-[5px] border-b-[#A77B5A] border border-[#D9C6B8] bg-white rounded-[20px] space-y-4">
               <div className="space-y-4 md:space-y-6">
@@ -241,7 +247,10 @@ export default function page() {
                   markets.
                 </p>
               </div>
-              <p className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2">
+              <Link
+                href="/focus-area"
+                className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
+              >
                 Explore Collaboration
                 <svg
                   width="21"
@@ -258,7 +267,7 @@ export default function page() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </p>
+              </Link>
             </div>
             <div className="p-8 md:p-16 self-end max-w-[939px] border-b-[5px] border-b-[#A77B5A] border border-[#D9C6B8] bg-white rounded-[20px] space-y-4">
               <div className="space-y-4 md:space-y-6">
@@ -318,7 +327,10 @@ export default function page() {
                   networks — enabling global interoperability and growth.
                 </p>
               </div>
-              <p className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2">
+              <Link
+                href="/focus-area"
+                className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
+              >
                 Explore Collaboration
                 <svg
                   width="21"
@@ -335,7 +347,7 @@ export default function page() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </p>
+              </Link>
             </div>
             <div className="p-8 md:p-16 max-w-[939px] border-b-[5px] border-b-[#A77B5A] border border-[#D9C6B8] bg-white rounded-[20px] space-y-4">
               <div className="space-y-4 md:space-y-6">
@@ -396,7 +408,10 @@ export default function page() {
                   environmental values.
                 </p>
               </div>
-              <p className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2">
+              <Link
+                href="/focus-area"
+                className="text-sm md:text-[22px] font-semibold text-[#A77B5A] flex items-center gap-2"
+              >
                 Explore Collaboration
                 <svg
                   width="21"
@@ -413,7 +428,7 @@ export default function page() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </p>
+              </Link>
             </div>
           </div>
         </div>
