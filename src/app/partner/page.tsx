@@ -116,7 +116,7 @@ export default function ApplicationPage() {
               <h2 className="heading-section">
                 Let&apos;s Start the Conversation
               </h2>
-              <p className="font-['Poppins',sans-serif] text-lg leading-[1.5] text-[var(--color-primary-text)]">
+              <p className="font-['Poppins',sans-serif] text-lg leading-normal text-foreground">
                 Collaborate with Elysium to advance research, strengthen
                 regulatory innovation, and build the next generation of
                 blockchain infrastructure. Share your details below, and our
@@ -129,7 +129,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="firstName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     First Name
                   </label>
@@ -140,13 +140,13 @@ export default function ApplicationPage() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="lastName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Last Name
                   </label>
@@ -157,7 +157,7 @@ export default function ApplicationPage() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -166,7 +166,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="email"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Email Address
                   </label>
@@ -177,13 +177,13 @@ export default function ApplicationPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="phoneNumber"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Phone Number
                   </label>
@@ -193,7 +193,7 @@ export default function ApplicationPage() {
                     name="phoneNumber"
                     value={formData.phoneNumber}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="companyName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Company Name
                   </label>
@@ -212,13 +212,13 @@ export default function ApplicationPage() {
                     name="companyName"
                     value={formData.companyName}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="role"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Role / Position
                   </label>
@@ -228,7 +228,7 @@ export default function ApplicationPage() {
                     name="role"
                     value={formData.role}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -237,7 +237,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="areaOfPartnership"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Area of Partnership Interest
                   </label>
@@ -247,13 +247,13 @@ export default function ApplicationPage() {
                     name="areaOfPartnership"
                     value={formData.areaOfPartnership}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="country"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Country
                   </label>
@@ -263,7 +263,7 @@ export default function ApplicationPage() {
                     name="country"
                     value={formData.country}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -272,7 +272,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="website"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Website or Portfolio (Optional)
                   </label>
@@ -282,13 +282,13 @@ export default function ApplicationPage() {
                     name="website"
                     value={formData.website}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="howDidYouHearAboutUs"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     How Did You Hear About Us
                   </label>
@@ -298,7 +298,7 @@ export default function ApplicationPage() {
                     name="howDidYouHearAboutUs"
                     value={formData.howDidYouHearAboutUs}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -306,7 +306,7 @@ export default function ApplicationPage() {
               <div className="space-y-3">
                 <label
                   htmlFor="additionalNotes"
-                  className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                  className="block font-['Poppins',sans-serif] text-lg text-foreground"
                 >
                   Tell Us About Your Partnership Goals
                 </label>
@@ -316,7 +316,7 @@ export default function ApplicationPage() {
                   value={formData.additionalNotes}
                   onChange={handleChange}
                   rows={10}
-                  className="w-full px-5 py-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] resize-none focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                  className="w-full px-5 py-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground resize-none focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                 />
               </div>
 

@@ -66,7 +66,7 @@ export default function Home() {
 
           <div className="flex-1">
             <Image
-              src="/images/team-collage.png"
+              src="/images/team-collage.webp"
               alt="Team members celebrating together in office"
               width={700}
               height={515}
@@ -77,7 +77,7 @@ export default function Home() {
               alt=""
               width={554}
               height={664}
-              className="max-lg:hidden absolute -right-0 -top-20 z-0"
+              className="max-lg:hidden absolute right-0 -top-20 z-0"
             />
           </div>
         </div>
@@ -280,13 +280,13 @@ export default function Home() {
             ].map((card, i) => (
               <div
                 key={i}
-                className="card-focus bg-[#fff] max-md:w-[243px] max-md:h-[263px] shrink-0 flex flex-col items-start gap-2 md:gap-6"
+                className="card-focus bg-white max-md:w-[243px] max-md:h-[263px] shrink-0 flex flex-col items-start gap-2 md:gap-6"
               >
                 <div className="size-[64px] md:size-[83px] flex items-center justify-center">
                   {card.icon}
                 </div>
                 <div className="flex flex-col gap-1.5 md:gap-2.5">
-                  <h3 className="text-lg md:text-2xl font-bold tracking-[0.25px] text-[#000]">
+                  <h3 className="text-lg md:text-2xl font-bold tracking-[0.25px] text-black">
                     {card.title}
                   </h3>
                   <p className="text-xs/4 md:text-base/[22px] tracking-[0.1px] text-[#474646]">
@@ -420,7 +420,7 @@ export default function Home() {
             {/* Digital Wallets */}
             <div className="card-venture bg-white">
               <Image
-                src="/images/venture-digital-wallets.jpg"
+                src="/images/venture-digital-wallets.webp"
                 alt="Mobile phone displaying QR code for digital wallet payments"
                 width={405}
                 height={200}
@@ -447,7 +447,7 @@ export default function Home() {
             {/* Trust & Compliance */}
             <div className="card-venture bg-white">
               <Image
-                src="/images/venture-trust-compliance.jpg"
+                src="/images/venture-trust-compliance.webp"
                 alt="Hands interacting with holographic security icons"
                 width={405}
                 height={200}
@@ -472,7 +472,7 @@ export default function Home() {
             {/* Data Intelligence */}
             <div className="card-venture bg-white">
               <Image
-                src="/images/venture-data-intelligence.jpg"
+                src="/images/venture-data-intelligence.webp"
                 alt="Digital brain with blue neural network"
                 width={405}
                 height={200}
@@ -500,7 +500,7 @@ export default function Home() {
             {/* Sustainable Tech */}
             <div className="card-venture bg-white">
               <Image
-                src="/images/venture-sustainable-tech.jpg"
+                src="/images/venture-sustainable-tech.webp"
                 alt="Hand holding glowing green digital globe"
                 width={405}
                 height={200}
@@ -525,7 +525,7 @@ export default function Home() {
             {/* Digital Identity */}
             <div className="card-venture bg-white">
               <Image
-                src="/images/venture-digital-identity.jpg"
+                src="/images/venture-digital-identity.webp"
                 alt="Face with digital recognition overlay"
                 width={405}
                 height={200}
@@ -550,7 +550,7 @@ export default function Home() {
             {/* Trade & Infrastructure */}
             <div className="card-venture bg-white">
               <Image
-                src="/images/venture-trade-infrastructure.jpg"
+                src="/images/venture-trade-infrastructure.webp"
                 alt="Digital globe with network connections"
                 width={405}
                 height={200}
@@ -578,11 +578,11 @@ export default function Home() {
       {/* Partners Section */}
       <section className="relative py-7 md:py-[50px]">
         <div
-          className="absolute left-0 top-1/2 -translate-y-1/2 w-[87px] h-[405px] blur-[40px] opacity-30"
+          className="absolute left-0 top-1/2 -translate-y-1/2 w-[87px] h-[405px] blur-2xl opacity-30"
           style={{ backgroundColor: "var(--color-primary-accent)" }}
         ></div>
         <div
-          className="absolute right-0 top-1/2 -translate-y-1/2 w-[87px] h-[405px] blur-[40px] opacity-30"
+          className="absolute right-0 top-1/2 -translate-y-1/2 w-[87px] h-[405px] blur-2xl opacity-30"
           style={{ backgroundColor: "var(--color-primary-accent)" }}
         ></div>
 
@@ -632,7 +632,7 @@ export default function Home() {
       {/* Blog Section */}
       <section className="py-7 md:py-[50px]">
         <div className="mw">
-          <p className="text-[var(--color-primary-accent)] text-[10px] tracking-[0.66px] md:text-[14.93px] md:tracking-[1.07px] text-center mb-1.5 md:mb-4">
+          <p className="text-(--color-primary-accent) text-[10px] tracking-[0.66px] md:text-[14.93px] md:tracking-[1.07px] text-center mb-1.5 md:mb-4">
             OUR LATEST NEWS & BLOG
           </p>
           <h2 className="text-[28px] md:text-[48px]/[58px] md:tracking-[0.32px] text-center mb-8 md:mb-16 max-w-[507px] mx-auto">
@@ -646,7 +646,7 @@ export default function Home() {
                 className="group max-lg:w-[300px] shrink-0 cursor-pointer"
               >
                 <Image
-                  src={`/images/blog-post-${i + 1}.jpg`}
+                  src={`/images/blog-post-${i + 1}.webp`}
                   alt="Team members high-fiving in office"
                   width={405}
                   height={228}

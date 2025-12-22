@@ -129,7 +129,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="firstName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     First Name
                   </label>
@@ -140,13 +140,13 @@ export default function ApplicationPage() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="lastName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Last Name
                   </label>
@@ -157,7 +157,7 @@ export default function ApplicationPage() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -167,7 +167,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="email"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Email Address
                   </label>
@@ -178,13 +178,13 @@ export default function ApplicationPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="phoneNumber"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Phone Number
                   </label>
@@ -194,7 +194,7 @@ export default function ApplicationPage() {
                     name="phoneNumber"
                     value={formData.phoneNumber}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="companyName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Company / Project Name
                   </label>
@@ -214,13 +214,13 @@ export default function ApplicationPage() {
                     name="companyName"
                     value={formData.companyName}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="website"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Website or Portfolio
                   </label>
@@ -230,7 +230,7 @@ export default function ApplicationPage() {
                     name="website"
                     value={formData.website}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -240,7 +240,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="country"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Country / Region
                   </label>
@@ -250,13 +250,13 @@ export default function ApplicationPage() {
                     name="country"
                     value={formData.country}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="stageOfVenture"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Stage of Venture
                   </label>
@@ -266,7 +266,7 @@ export default function ApplicationPage() {
                     name="stageOfVenture"
                     value={formData.stageOfVenture}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -276,7 +276,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="areaOfFocus"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Area of Focus
                   </label>
@@ -286,13 +286,13 @@ export default function ApplicationPage() {
                     name="areaOfFocus"
                     value={formData.areaOfFocus}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="ventureDescription"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Brief Description of Your Venture
                   </label>
@@ -302,7 +302,7 @@ export default function ApplicationPage() {
                     name="ventureDescription"
                     value={formData.ventureDescription}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -312,7 +312,7 @@ export default function ApplicationPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="supportSeeking"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     What Support Are You Seeking?
                   </label>
@@ -322,13 +322,13 @@ export default function ApplicationPage() {
                     name="supportSeeking"
                     value={formData.supportSeeking}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="pitchDeck"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Upload Pitch Deck
                   </label>
@@ -338,10 +338,10 @@ export default function ApplicationPage() {
                     name="pitchDeck"
                     accept="application/pdf,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation"
                     onChange={handleFileChange}
-                    className="w-full h-20 px-5 py-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-[var(--color-primary-accent)] file:text-white"
+                    className="w-full h-20 px-5 py-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-(--color-primary-accent) file:text-white"
                   />
                   {pitchDeckFile && (
-                    <p className="text-sm text-[var(--color-primary-text)]">
+                    <p className="text-sm text-foreground">
                       Selected: {pitchDeckFile.name}
                     </p>
                   )}
@@ -352,7 +352,7 @@ export default function ApplicationPage() {
               <div className="space-y-3">
                 <label
                   htmlFor="additionalNotes"
-                  className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                  className="block font-['Poppins',sans-serif] text-lg text-foreground"
                 >
                   Additional Notes
                 </label>
@@ -362,7 +362,7 @@ export default function ApplicationPage() {
                   value={formData.additionalNotes}
                   onChange={handleChange}
                   rows={10}
-                  className="w-full px-5 py-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] resize-none focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                  className="w-full px-5 py-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground resize-none focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                 />
               </div>
 

@@ -7,21 +7,21 @@ const testimonials = [
   {
     name: "Maxin Will",
     title: "Product Manager",
-    avatarUrl: "/images/testimonial-img.jpg",
+    avatarUrl: "/images/testimonial-img.webp",
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco.",
   },
   {
     name: "Maxin Will",
     title: "Product Manager",
-    avatarUrl: "/images/testimonial-img.jpg",
+    avatarUrl: "/images/testimonial-img.webp",
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco.",
   },
   {
     name: "Maxin Will",
     title: "Product Manager",
-    avatarUrl: "/images/testimonial-img.jpg",
+    avatarUrl: "/images/testimonial-img.webp",
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco.",
   },
@@ -73,10 +73,10 @@ export default function page() {
       <section className="relative pt-16">
         <div className="mw flex flex-col gap-[50px]">
           <div className="max-w-[869px]">
-            <p className="text-[var(--color-primary-accent)] text-[10px]/[14px] md:text-lg/[28px] font-semibold">
+            <p className="text-(--color-primary-accent) text-[10px]/[14px] md:text-lg/[28px] font-semibold">
               What we Offer
             </p>
-            <h2 className="text-[var(--color-primary-dark)] heading-section">
+            <h2 className="text-(--color-primary-dark) heading-section">
               Turning Research-Driven Ideas into Market-Ready Ventures
             </h2>
           </div>
@@ -124,7 +124,7 @@ export default function page() {
             </div>
             <div className="item-5 relative max-lg:hidden overflow-hidden">
               <Image
-                src={"/images/what-we-offer.jpg"}
+                src={"/images/what-we-offer.webp"}
                 aria-label="What we offer illustration"
                 alt="What we offer illustraion"
                 width={350}
@@ -232,10 +232,10 @@ export default function page() {
 
       <section className="relative py-16 md:py-24">
         <div className="flex flex-col items-center justify-center mw">
-          <p className="text-[var(--color-primary-accent)] tracking-[6%] text-[10px] md:text-xs/4 font-semibold">
+          <p className="text-(--color-primary-accent) tracking-[6%] text-[10px] md:text-xs/4 font-semibold">
             TESTIMONIAL
           </p>
-          <h2 className="md:mt-3 text-[var(--color-primary-dark)] heading-section">
+          <h2 className="md:mt-3 text-(--color-primary-dark) heading-section">
             Client Success Stories
           </h2>
 
@@ -334,7 +334,7 @@ export default function page() {
             </div>
             <div className="flex-1 flex flex-col items-center justify-center">
               <Image
-                src={"/images/question-mark.png"}
+                src={"/images/question-mark.webp"}
                 alt="question mark illustration"
                 width={280}
                 height={255}

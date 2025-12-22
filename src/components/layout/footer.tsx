@@ -37,7 +37,7 @@ export default function Footer() {
                 />
               </svg>
             </div>
-            <p className="text-lg font-medium text-[var(--color-footer-text)]">
+            <p className="text-lg font-medium text-(--color-footer-text)">
               Research. Regulation. R&D. Transforming Digital Economies.
             </p>
             <div className="flex items-center gap-2">

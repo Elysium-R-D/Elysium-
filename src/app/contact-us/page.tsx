@@ -106,7 +106,7 @@ export default function ContactUsPage() {
               <h2 className="heading-section">
                 Let&apos;s Start the Conversation
               </h2>
-              <p className="font-['Poppins',sans-serif] text-lg leading-[1.5] text-[var(--color-primary-text)]">
+              <p className="font-['Poppins',sans-serif] text-lg leading-normal text-foreground">
                 Have a question, idea, or collaboration in mind?
                 <br />
                 Fill out the form below and our team will connect with you to
@@ -121,7 +121,7 @@ export default function ContactUsPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="firstName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     First Name
                   </label>
@@ -132,13 +132,13 @@ export default function ContactUsPage() {
                     value={formData.firstName}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="lastName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Last Name
                   </label>
@@ -149,7 +149,7 @@ export default function ContactUsPage() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -159,7 +159,7 @@ export default function ContactUsPage() {
                 <div className="space-y-3">
                   <label
                     htmlFor="email"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Email Address
                   </label>
@@ -170,13 +170,13 @@ export default function ContactUsPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
                 <div className="space-y-3">
                   <label
                     htmlFor="companyName"
-                    className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                    className="block font-['Poppins',sans-serif] text-lg text-foreground"
                   >
                     Company Name
                   </label>
@@ -186,7 +186,7 @@ export default function ContactUsPage() {
                     name="companyName"
                     value={formData.companyName}
                     onChange={handleChange}
-                    className="w-full h-20 px-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                    className="w-full h-20 px-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                   />
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default function ContactUsPage() {
               <div className="space-y-3">
                 <label
                   htmlFor="subject"
-                  className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                  className="block font-['Poppins',sans-serif] text-lg text-foreground"
                 >
                   Subject
                 </label>
@@ -206,7 +206,7 @@ export default function ContactUsPage() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full h-20 px-5 pr-12 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] appearance-none focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50 cursor-pointer"
+                    className="w-full h-20 px-5 pr-12 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground appearance-none focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50 cursor-pointer"
                   >
                     <option value="">Select a subject</option>
                     <option value="partnership">Partnership Inquiry</option>
@@ -225,7 +225,7 @@ export default function ContactUsPage() {
               <div className="space-y-3">
                 <label
                   htmlFor="message"
-                  className="block font-['Poppins',sans-serif] text-lg text-[var(--color-primary-text)]"
+                  className="block font-['Poppins',sans-serif] text-lg text-foreground"
                 >
                   Message
                 </label>
@@ -236,7 +236,7 @@ export default function ContactUsPage() {
                   onChange={handleChange}
                   required
                   rows={10}
-                  className="w-full px-5 py-5 rounded-lg border border-[var(--color-primary-accent)] bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-[var(--color-primary-text)] resize-none focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-accent)] focus:ring-opacity-50"
+                  className="w-full px-5 py-5 rounded-lg border border-(--color-primary-accent) bg-[#fbfdfe] font-['Poppins',sans-serif] text-base text-foreground resize-none focus:outline-none focus:ring-2 focus:ring-(--color-primary-accent) focus:ring-opacity-50"
                 />
               </div>
 
